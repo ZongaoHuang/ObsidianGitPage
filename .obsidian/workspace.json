@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "afdf3916d07de9cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
             "id": "d8e28c4ecc0944f0",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "test3"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -193,8 +208,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71407fee3c649c49",
+  "active": "afdf3916d07de9cf",
   "lastOpenFiles": [
+    "attachments/1744635228370_d 1.png",
+    "attachments/1744635228370_d.png",
+    "test.md",
+    "README.md",
     "attachments/1744634657558_d 3.png",
     "attachments/1744634657558_d 2.png",
     "attachments/1744634657558_d 1.png",
@@ -203,10 +222,7 @@
     "attachments/1744633542385_d.png",
     "attachments/png1.png",
     "attachments/png2.png",
-    "README.md",
     "attachments/1744632506522_d 1.png",
-    "attachments/Pasted image 20250414200824.png",
-    "attachments/1744632506522_d 2.png",
     "markdown-examples.md",
     "attachments",
     "api-examples.md",
@@ -215,7 +231,6 @@
     "test1.md",
     "test2",
     "index.md",
-    "test.md",
     "欢迎.md",
     "package.json",
     "pnpm-lock.yaml",

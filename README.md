@@ -28,4 +28,5 @@
 2. 本地使用编译器 VSCode 打开GitHub仓库所在的文件夹，上面截图所在的文件夹。
 3. 在编译器终端输入 `npm add -D vitepress` 进行配置下载
 4. 在编译器终端输入 `npx vitepress init` 进行初始化（3和4两步具体参照 VitePress官网安装教程），注意在初始化时，建议直接选择在根目录 `./`![](1744634657558_d%203.png)
-5. 运行 `npm run docs:dev`，测试是否安装和初始化成功，此时你可以尝试在Obsidian新建一个test文件（默认为 .md 文件）， 然后在浏览器中访问 `http://localhost:5173/test`，测试是否可以访问以及是否包含test.md中的内容
+5. 运行 `npm run docs:dev`，测试是否安装和初始化成功，此时你可以尝试在Obsidian新建一个test文件（默认为 .md 文件）， 然后在浏览器中访问 `http://localhost:5173/test`，测试是否可以访问以及是否包含 test 中的内容。![](1744635228370_d%201.png)
+6. 目前已经在本地完成了Obsidian内容到个人文档博客的转化，如果你想要更加个性的个人文档博客，你可以参照 [VitePress | 由 Vite 和 Vue 驱动的静态站点生成器](https://vitepress.dev/zh/) 进行开发和配置！
