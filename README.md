@@ -33,4 +33,7 @@
 ### 部署与上线到GitHub Pages
 这里参照 [部署 VitePress 站点 | VitePress](https://vitepress.dev/zh/guide/deploy) 中部署到GitHub Pages的方法
 1. 我们站点位于项目的根目录 `./` 下
-2. 
+2. 在 `.vitepress/config.mts `中添加配置，如图![](1744635854715_d.png)
+3. 在项目的文件夹下创建一个 `.github/workflows` 目录，在该目录中创建一个名为 `deploy.yml` 的文件，如图
+   ![](Pasted%20image%2020250414210138.png)
+3. 在 输入如下内容：
