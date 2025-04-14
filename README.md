@@ -29,4 +29,6 @@
 ### 安装 VitePress
 1. 打开 VitePress官网安装教程 [快速开始 | VitePress](https://vitepress.dev/zh/guide/getting-started)，了解安装步骤，做好前置准备。
 2. 本地使用编译器 VSCode 打开GitHub仓库所在的文件夹，上面截图所在的文件夹。
-3. 在编译器终端输入 npm add -D vitepress
+3. 在编译器终端输入 `npm add -D vitepress` 进行配置下载
+4. 在编译器终端输入 `npx vitepress init` 进行初始化（3和4两步具体参照 VitePress官网安装教程），注意在初始化时，建议直接选择在根目录 `./`
+5. 
