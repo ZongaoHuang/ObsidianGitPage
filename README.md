@@ -14,4 +14,10 @@
 
 ## 部署步骤
 
-### 安装Obsi
+### 安装Obsidian
+1. 在 [Obsidian - Sharpen your thinking](https://obsidian.md/) 选择合适的版本在本地安装Obsidian
+2. 新建一个Obsidian仓库
+![[attachments/1744632293260_d.png]]
+3. 在仓库里新建一些内容，熟悉一下Obsidian的使用方法吧！
+### 安装Git插件
+在OBs仓库的
