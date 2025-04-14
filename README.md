@@ -1,6 +1,6 @@
 # ObsidianGitPage
 
-使用 Obsidian + VitePress + Git 实现全流程的博客撰写，部署与上线。
+使用 Obsidian + VitePress + Git 实现全流程的个人技文档或博客的撰写，同步，部署与上线。
 
 ## 功能介绍
 
@@ -17,7 +17,8 @@
 ### 安装Obsidian
 1. 在 [Obsidian - Sharpen your thinking](https://obsidian.md/) 选择合适的版本在本地安装Obsidian
 2. 新建一个Obsidian仓库
-![[attachments/1744632293260_d.png]]
+![](png1.png)
 3. 在仓库里新建一些内容，熟悉一下Obsidian的使用方法吧！
 ### 安装Git插件
-在OBs仓库的
+在Obsidian的仓库设置中，关闭安全模式，下载Git插件
+![](png2.png)
