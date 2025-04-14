@@ -26,5 +26,5 @@ export default defineConfig({
     ]
   },
 
-  base: '/base/'
+  base: '/OBTest/'
 })
