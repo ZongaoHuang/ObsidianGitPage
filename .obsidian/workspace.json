@@ -35,8 +35,7 @@
               "title": "test3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test2/test3.md",
+                "file": "api-examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "test3 的反向链接列表"
+              "title": "api-examples 的反向链接列表"
             }
           },
           {
@@ -128,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test2/test3.md",
+                "file": "api-examples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "test3 的出链列表"
+              "title": "api-examples 的出链列表"
             }
           },
           {
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test2/test3.md",
+                "file": "api-examples.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "test3 的大纲"
+              "title": "api-examples 的大纲"
             }
           },
           {
@@ -194,11 +193,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d8e28c4ecc0944f0",
+  "active": "71407fee3c649c49",
   "lastOpenFiles": [
+    "test2/test3.md",
+    "README.md",
     "test3.md",
     "test1.md",
-    "test2/test3.md",
     "api-examples.md",
     "test2",
     "index.md",

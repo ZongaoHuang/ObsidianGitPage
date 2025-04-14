@@ -26,5 +26,5 @@ export default defineConfig({
     ]
   },
 
-  base: '/OBTest/'
+  base: '/ObsidianGitPage/'
 })
