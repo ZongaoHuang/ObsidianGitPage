@@ -20,5 +20,7 @@
 ![](png1.png)
 3. 在仓库里新建一些内容，熟悉一下Obsidian的使用方法吧！
 ### 安装Git插件
-在Obsidian的仓库设置中，关闭安全模式，下载Git插件
+1. 在Obsidian的仓库设置中，关闭安全模式，下载Git插件
 ![](png2.png)
+2. 安装完Obsidian git插件后，你还需要本地拥有git，你需要新建一个GitHub仓库，假设仓库取名为 `repo` 
+3. 然后你需要把你当前的Obsidian仓库所在的文件夹与GitHub仓库关联，也就是讲
