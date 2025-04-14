@@ -22,5 +22,8 @@
 ### 安装Git插件
 1. 在Obsidian的仓库设置中，关闭安全模式，下载Git插件
 ![](png2.png)
-2. 安装完Obsidian git插件后，你还需要本地拥有git，你需要新建一个GitHub仓库，假设仓库取名为 `repo` 
-3. 然后你需要把你当前的Obsidian仓库所在的文件夹与GitHub仓库关联，也就是讲
+2. 安装完 Obsidian git 插件后，你还需要本地拥有 git，你需要新建一个 GitHub 仓库，假设仓库取名为 `repo` 
+3. 然后你需要把你当前的 Obsidian 仓库所在的文件夹与 GitHub 仓库关联，也就是将本地的Obsidian 文件夹**（包含 .obsidian 的文件夹）**上传到 GitHub仓库。
+
+> [!NOTE] Title
+> 具体上传哪个文件夹可能有疑惑，你需要首先找到 .obsidian 这个文件夹，然后该目录在另一个文件夹就是你的仓库文件夹，然后就把当前包含 .obsidian 的文件夹进行上传
