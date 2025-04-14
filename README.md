@@ -8,8 +8,8 @@
 ## 工作流程
 
 - 使用 Obsidian 在本地撰写内容
-- 使用 git 将本地内容与 GitHub 仓库同步
-- 使用 VitePress 获取 Markdown 内容生成个性化博客页面
+- 使用 git 将本地内容与 GitHub 仓库自动同步
+- 使用 VitePress 获取 Obsidian内容生成个性化博客页面
 - 使用 Github Actions 部署为 `https://<username>.github.io/repo` 页面
 
 ## 部署步骤
@@ -19,7 +19,7 @@
 2. 新建一个Obsidian仓库![](attachments/png1.png)
 3. 在仓库里新建一些内容，熟悉一下Obsidian的使用方法吧！
 ### 安装Git插件并上传 GitHub 仓库
-1. 在Obsidian的仓库设置中，关闭安全模式，下载Git插件，同时ni'ye'ke![](attachments/png2.png)
+1. 在Obsidian的仓库设置中，关闭安全模式，下载 Git 插件，同时你也可以对 Git 插件进行设置相关操作的自动执行时间，实现自动同步![](attachments/png2.png)
 2. 安装完 Obsidian git 插件后，你还需要本地拥有 git，你需要新建一个 GitHub 仓库，假设仓库取名为 `ObsidianTest` 
 3. 然后你需要把你当前的 Obsidian 仓库所在的文件夹与 GitHub 仓库关联，也就是将本地的Obsidian 文件夹上传到 GitHub仓库，注意这里的上传的文件夹应当是包含 .obsidian 的。如下，初始化 GitHub 仓库后，此时本地的文件夹至少包括如下标红内容。![](attachments/1744633542385_d.png)
 4. 然后你需要在本地进行新建内容测试，确保本地新增内容能够成功的上传到对应的GitHub仓库。到此，以及完成了我们的**同步功能**！
@@ -107,5 +107,8 @@ jobs:
 ```
 5. 来到 GitHub 仓库设置中的“Pages”菜单项下，选择“Build and deployment > Source > GitHub Actions”。
 6. 将更改推送到 `main` 分支并等待 GitHub Action 工作流完成，你可以查看具体的部署上线过程，配置正确如图![](attachments/Pasted%20image%2020250414211749.png)
-7. 访问你部署的站点 `https://<username>.github.io/[repository]/` 或 `https://<custom-domain>/`，这取决于你的设置。根据我们之前的配置，可以看到test内容。
+7. 访问你部署的站点 `https://<username>.github.io/[repository]/` 或 `https://<custom-domain>/`，这取决于你的设置。根据我们之前的配置，访问可以看到test内容。
    ![](attachments/Pasted%20image%2020250414211846.png)
+## Tips
+### 关于Obsidian图片的同步与上传
+调整如下的设置：![](attachments/1744636968719_d.png)
